@@ -1,10 +1,56 @@
-# React + Vite
+# React Jobs Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the jobs listing project utilizing React, Tailwind, and Vite
 
-Currently, two official plugins are available:
+![React Jobs](/src/assets/images/screen.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Job-Listing
-# Job-Listing
+## Features
+
+- Job listings for React developers
+- Ability for employers to post job listings
+- Option for developers to browse and apply for jobs
+
+## Usage
+
+This project uses JSON-Server for a mock backend.
+
+### Install Dependencies
+
+To get started, install the required dependencies:
+
+npm install
+
+
+### Run JSON Server
+
+To start the mock backend server:
+
+npm run server
+
+The server will run on http://localhost:8000
+
+### Run Vite Frontend
+
+To start the React frontend application:
+
+npm run dev
+
+
+React will run on http://localhost:3000
+
+### Build for Production
+
+To create a production build:
+
+npm run build
+
+
+### Preview Production Build
+
+To preview the production build:
+
+npm run preview
+
+
+
+
